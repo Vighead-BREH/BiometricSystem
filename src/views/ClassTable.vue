@@ -207,4 +207,25 @@ tr:hover td {
 .pagination button.active {
     background-color: #4caf50;
 }
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.status-upcoming {
+    background-color: #2196F3;
+    color: white;
+}
+.status-completed {
+    background-color: #4caf50;
+    color: white;
+}
+.status-cancelled {
+    background-color: #f44336;
+    color: white;
+}
+.status-ongoing {
+    background-color: #ff9800;
+    color: white;
+}
 </style>

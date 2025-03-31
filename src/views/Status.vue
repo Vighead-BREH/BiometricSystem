@@ -64,7 +64,6 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 18px;
     margin-bottom: 30px;
-    margin-left: 1%;
 }
 .stat-card {
     background-color: #1a3550;
