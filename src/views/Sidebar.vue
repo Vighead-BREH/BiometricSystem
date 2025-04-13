@@ -6,31 +6,31 @@
     <div class="sidebar" :class="{ collapsed: isCollapsed }" @mouseenter="isCollapsed = false" @mouseleave="isCollapsed = true">
     <h1 v-show="!isCollapsed">DASHBOARD</h1>
 
-    <div class="nav-item active">
-      <i class="fas fa-home"></i>
-      <span v-show="!isCollapsed">Home</span>
+    <router-link to="/dashboard" class="nav-item active">
+        <i class="fas fa-home"></i>
+        <span v-show="!isCollapsed">Dashboard</span>
+    </router-link>
+
+    <router-link to="/records" class="nav-item">
+        <i class="fas fa-list"></i>
+        <span v-show="!isCollapsed">Records</span>
+    </router-link>
+
+    <div class="nav-item">
+        <i class="fas fa-chart-bar"></i>
+        <span v-show="!isCollapsed">Analytics</span>
     </div>
 
     <div class="nav-item">
-      <i class="fas fa-list"></i>
-      <span v-show="!isCollapsed">Records</span>
-    </div>
-
-    <div class="nav-item">
-      <i class="fas fa-chart-bar"></i>
-      <span v-show="!isCollapsed">Analytics</span>
-    </div>
-
-    <div class="nav-item">
-      <i class="fas fa-cog"></i>
-      <span v-show="!isCollapsed">Settings</span>
+        <i class="fas fa-cog"></i>
+        <span v-show="!isCollapsed">Settings</span>
     </div>
 
     <div class="user-info" v-show="!isCollapsed">
-      <p><strong>Currently Logged In:</strong></p>
-      <p id="currentUser">BBM</p>
-      <p>Admin</p>
-      <button class="logout-button"><i class="fas fa-sign-out-alt"></i> Log Out</button>
+        <p><strong>Currently Logged In:</strong></p>
+        <p id="currentUser">BBM</p>
+        <p>Admin</p>
+        <button class="logout-button"><i class="fas fa-sign-out-alt"></i> Log Out</button>
     </div>
   </div>
 </template>
@@ -78,6 +78,12 @@
     display: flex;
     align-items: center;
 }
+
+a.nav-item {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 .nav-item span {
     transition: opacity 0.3s ease;
