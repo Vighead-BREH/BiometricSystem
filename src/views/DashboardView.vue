@@ -2,8 +2,8 @@
 import Sidebar from '@/views/Sidebar.vue'
 import AccountHeader from '@/views/AccountHeader.vue'
 import Status from '@/views/Status.vue'
-import SearchBar from '@/views/SearchBar.vue'
 import ClassTable from '@/views/ClassTable.vue'
+
 </script>
 <template>
   <meta charset="UTF-8" />
@@ -24,17 +24,16 @@ import ClassTable from '@/views/ClassTable.vue'
     <div class="dashboard-container">
       <AccountHeader />
       <Status />
-      <SearchBar />
       <ClassTable />
     </div>
   </div>
 </template>
 <style scoped>
 .main-content {
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: end;
+  width: 100%;
 }
 .dashboard-container {
   width: 95%;
