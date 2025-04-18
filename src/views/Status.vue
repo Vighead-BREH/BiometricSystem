@@ -7,7 +7,7 @@
                 <p class="stat-label">Total Check-ins Today</p>
             </div>
             <div class="stat-icon">
-                <i class="fas fa-user-check"></i> <!-- Changed Icon -->
+                <i class="fas fa-user-check"></i> 
             </div>
             </div>
             <div class="stat-trend"><i class="fas fa-arrow-up"></i> 12% from last month</div>
