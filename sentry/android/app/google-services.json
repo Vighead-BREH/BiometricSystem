@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "615732221737",
+    "project_id": "sentry-2910d",
+    "storage_bucket": "sentry-2910d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615732221737:android:6b483b23cbe175ee7d8938",
+        "android_client_info": {
+          "package_name": "com.example.sentry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615732221737-ig09qkaa5aqbs2uq9eomsine0kf7agh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sentry",
+            "certificate_hash": "9852a101a3671141552509a9de6f3ba84fbe0921"
+          }
+        },
+        {
+          "client_id": "615732221737-hra7ohge5qsq4kgnbv441u7sub77tial.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqEkv88UIwFYZzCKeM27dElN2rqWuJedw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615732221737-hra7ohge5qsq4kgnbv441u7sub77tial.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
